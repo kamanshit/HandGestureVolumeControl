@@ -15,7 +15,7 @@ max_vol = st.slider("🔊 Maximum Volume", 0, 100, 100)
 
 # -------------------- MediaPipe Initialization --------------------
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=2)
+hands = mp_hands.Hands(max_num_hands=1)
 mp_draw = mp.solutions.drawing_utils
 
 # -------------------- Volume Scaling Function --------------------
